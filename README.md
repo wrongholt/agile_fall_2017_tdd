@@ -14,7 +14,7 @@ Please read all instructions before starting. Important grading criteria follow!
 
 ### Getting Started
 
-1. Visit <https://github.com/bhogancvtc/TDDWithJUnit>
+1. Visit <https://github.com/Vandise/agile_fall_2017_tdd/>
 2. fork the repository there to your own account.
 3. **Ensure you've installed Git to your computer**
 4. Clone your fork of my project to your computer.
