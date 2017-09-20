@@ -31,6 +31,13 @@ public class CarTest {
 		assertThat(car1.toString(), is("Color: Red, Speed: 0"));
 	}
 
+	@Test
+	public void canDoToStringAccountForNewInstances()
+	{
+		Car car2 = new Car("Blue", 250);
+		assertThat(car2.toString(), is("Color: Blue, Speed: 0"));
+	}
+	
 	// Create and pass test for deceleration.
 	
 	// Create and pass test for no deceleration below 0.
