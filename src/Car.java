@@ -43,6 +43,10 @@ public class Car {
 			speed+= amount;
 		}
 	}
+
+	public void decelerate(int amount) {
+		this.speed = 5;
+	}
 	
 	/**
 	 * Displays the object as a string in the format
